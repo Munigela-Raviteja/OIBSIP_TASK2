@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2af1055674.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1>Hi, I'm <span>Raviteja</span><br>Munigela From Hyderabad</h1>
+            </div>
+        </div>
+    </div>
+    <!----------------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Raviteja.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Strong in Design and Web Development with intuitive problem-solving skills. Proficient in JAVA, PYTHON, C, JAVASCRIPT, and SQL. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programmer</span><br> Proficient in JAVA, PYTHON, C, JAVASCRIPT and Data Structure and Algorithms.</li>
+                            <li><span>Web Development</span><br>Full stack web developer.</li>
+                            <li><span>Entrepreneur</span><br>Entrepreneurship from Coding Ninjas.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Student Permission System</span><br>Project developer at Cisco thingQbator.</li>
+                            <li><span>College Club</span><br>Member at Aim Club.</li>
+                            <li><span>Web Development</span><br>Internship at Oasis Infobytes.</li>
+                            <li><span>Entrepreneurship</span><br>Internship at Coding Ninjas.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>Undergraduation.</li>
+                            <li><span>2020</span><br>Intermediate Education.</li>
+                            <li><span>2018</span><br>Secondary School.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------services---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                   
+                    <h2>Programmer</h2>
+                    <p>Solutions-driven programmer with a commended performance in modular and object-oriented programming.Well-versed in all phases of the software development lifecycle, with a strong working knowledge of algorithms and data structures. Capable of customized solutions improving business processes, operations, and profitability.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    
+                    <h2>Web Design</h2>
+                    <p>Experience developing consumer-focused websites using HTML, CSS, and JavaScript. Experience building products for desktop, phone, and mobile app users, meeting the highest standards for web design, user experience, best practices, usability, and speed. All this work experience combined with my age and motivation has made me work exceedingly well in various fields.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    
+                    <h2>Entrepreneur</h2>
+                    <p>Innovative and performance-driven Entrepreneur with a deep passion for technology and business. Experienced in managing all aspects of business development. Possess the ability to work and remain calm under pressure, excellent leadership skills, and great time management skills.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------Portfolio--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Cisco thingQbator</h3>
+                        <p>In Cisco thingQbator program we developed a Project called Student Permission System.Providing an web interface between the students and department heads to manage leave permissions digitally.</p>
+                        <a href="images/cisco.pdf" target="_blank" download><i class="fa-solid fa-link"></i></a>
+                
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Coding Ninjas</h3>
+                        <p>I am doing the Campus Ambassador program ! offered by Coding Ninjas so as part of the program I represent our college and help the students to improve their skills by various programs offered by Coding Ninjas</p>
+                        <a href="images/OfferLetter.pdf" target="_blank" download><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Oasis Infobytes</h3>
+                        <p>Oasis Infobytes offered a month Internship program in web development as part of this Internship I did various tasks it's helped me lot to improve my skills </p>
+                        <a href="images/Oasis.pdf" target="_blank" download><i class="fa-solid fa-link"></i></a>
+                
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-----------------------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>munigelaraviteja@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8978100936</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/raviteja.munigela" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/MunigelaRavite1" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/munigela_raviteja/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/munigelaraviteja/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Profile.pdf" target="_blank" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; munigelaraviteja <i class="fa-solid fa-heart"></i> All rights reserved! </p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        } 
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwMBhZ3pYH7_RyKH_NWlDnDpfV7T09DWIvwUMU80Pw_k00BMIup5PKkrtq9Ijtnz6T_/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    },3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
